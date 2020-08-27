@@ -1,1 +1,1 @@
-<view></view>
+<view><view class="card"><image src="/static/boc.jpg" alt class="_img"></image><view class="specified">中国银行</view><view class="sorts">尾号8787 储蓄卡</view></view><view class="withdrawAmount"><view class="wdhints">提现金额<view class="wdamount">￥<input type="number"/></view><view class="balanceHint">可用余额 0.00元</view></view></view><view class="wdcomfirmbtn">预计两小时内到账，确认提现</view></view>

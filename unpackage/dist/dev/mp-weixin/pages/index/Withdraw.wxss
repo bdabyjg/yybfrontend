@@ -1,0 +1,49 @@
+
+image{
+  width: 200rpx;
+  height: 150rpx;
+  float: left;
+}
+.card{
+  margin: 150rpx;
+}
+/*！
+*无法将图片、中国银行等字左对齐，变得居中了
+
+
+*/
+image,.specified{
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row;
+          flex-flow: row;
+}
+.specified,.sorts{
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+          flex-flow: column;
+}
+.wdamount{
+  font-family: "Arial Rounded MT Bold";
+  font-size: xx-large;
+  border-bottom:1rpx solid #dedede;
+}
+/*确认按钮格式*/
+.wdcomfirmbtn{
+  display: block;
+  width: 80%;
+  height: 50rpx;
+  margin: 50rpx auto;
+  padding: 15rpx;
+  border: 1rpx solid;
+  border-radius: 35rpx;
+  position: fixed;
+  bottom: 20rpx;
+  background-color: #007AFF;
+  text-align: center;
+  color: #FFFFFF;
+  left: 0;
+  right: 0;
+}
+

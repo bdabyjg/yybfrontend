@@ -1,1 +1,1 @@
-<view></view>
+<view><view class="associatedHint"><view class="title">添加银行卡</view><view class="plz">请绑定持卡人本人的银行卡</view></view><view class="owner">持卡人：<input type="text"/></view><view class="cardnum">卡号：<input type="number"/></view><view class="fast">工商银行支持免输卡号快速添加</view></view>
