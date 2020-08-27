@@ -1,0 +1,2 @@
+<view><view class="bkg"></view><view class="now"><view class="ing">正在进行的任务</view><view class="ingLists"><view class="nowimg"><image src="../../static/img1.png"></image></view><view class="textnow"><view class="ingDetails">免费测血糖</view><view class="ingPrice">￥ 23.00       X 1</view></view></view></view><view class="histories"><view class="hst">历史任务</view><view class="hstimg"><image src="../../static/img1.png" mode></image></view><view class="texthst"><view class="historyDetails">1-3月
+        小儿推拿</view><view class="historicalPrice">￥  23.00     X 2</view></view></view></view>

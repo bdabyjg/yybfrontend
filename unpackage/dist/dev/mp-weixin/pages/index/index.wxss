@@ -1,0 +1,102 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ticklogo和实名认证的背景都是蓝色,且居中.
+ */
+.bg{
+	padding: 40rpx;
+	background-color:#007AFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: column;
+	        flex-flow: column;
+}
+.bg>view{
+	margin: 20rpx auto;
+}
+.firstline,.confirmed {
+	color: #FFFFFF;
+	text-align: center;
+}
+.img1{
+	width: 50%;
+	height: 300rpx;
+}
+.confirmed{
+	width: 100%;
+	height: 100%;
+}
+.realname,.idtnumber,.zhifubao{
+	color: #333333;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.text1{
+	width: 40%;
+	margin:20rpx;
+}
+

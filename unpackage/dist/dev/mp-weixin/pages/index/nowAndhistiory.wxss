@@ -1,0 +1,36 @@
+
+.bkg{
+  background-color: #007AFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  padding: 150rpx;
+}
+.now,.histories{
+  width: 100%;
+}
+.ing .hst{
+  margin: auto;
+}
+.nowimg,.hstimg{
+  width: 200rpx;
+  height: 150rpx;
+}
+.ingLists,.hst{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.textnow,.texthst{
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+          flex-flow: column;
+}
+image{
+  width: 100%;
+  height: 100%;
+}
+
+

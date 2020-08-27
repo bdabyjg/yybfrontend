@@ -1,4 +1,4 @@
-
+<!-- 医生认证页面 -->
 <template>
 	<view>
 		<view class="avatar">
