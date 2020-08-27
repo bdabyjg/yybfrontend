@@ -11,7 +11,7 @@
     </view>
 
 <!--    第二行 灰色背景条-->
-    <view class="2ndline">
+    <view class="sndline">
       <!--月份选择 -->
       <view class="month">本月</view>
         <view class="outcome">支出 ￥</view>
@@ -76,6 +76,9 @@
 	}
 </script>
 
-<style>
+<style type="text/css">
+.navigation-bar,.sndline{
+  display: flex;
+}
 
 </style>
