@@ -1,0 +1,17 @@
+
+.title{
+  margin: 40rpx;
+  font-size: x-large;
+}
+image{
+  width:200rpx;
+  height: 200rpx;
+  border-radius: 100%;
+}
+.List{
+  margin: 30rpx;
+  padding: 30rpx;
+  display: grid;
+}
+/*完全不知道怎么排 我尽力了*/
+

@@ -7,7 +7,8 @@
     "pages/index/About",
     "pages/index/Withdraw",
     "pages/index/AssociatedBankCard",
-    "pages/index/TransactionDetails"
+    "pages/index/TransactionDetails",
+    "pages/index/CardList"
   ],
   "subPackages": [],
   "window": {
@@ -17,5 +18,5 @@
     "backgroundColor": "#F8F8F8"
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap46.json"
+  "sitemapLocation": "sitemap34.json"
 }

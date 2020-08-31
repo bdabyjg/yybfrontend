@@ -1,0 +1,1 @@
+<view><view class="title"><view class="_h1">银行卡</view></view><view class="List"><block wx:for="{{List}}" wx:for-item="i" wx:for-index="id" wx:key="id"><view><image src="/static/defaultavatar.jpg" alt class="_img"></image><view class="id">{{i.name}}</view><view class="id">{{i.sorts}}</view><view class="id">{{i.num}}</view></view></block></view></view>

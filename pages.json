@@ -34,6 +34,10 @@
             "path" : "pages/index/TransactionDetails",
             "style" : {}
         }
+        ,{
+            "path" : "pages/index/CardList",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

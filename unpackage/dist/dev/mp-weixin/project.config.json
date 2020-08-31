@@ -62,22 +62,8 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "pages/index/AssociatedBankCard",
-					"pathName": "pages/index/AssociatedBankCard",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/index/Withdraw",
-					"pathName": "pages/index/Withdraw",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/index/TransactionDetails",
-					"pathName": "pages/index/TransactionDetails",
+					"name": "pages/index/CardList",
+					"pathName": "pages/index/CardList",
 					"scene": null
 				}
 			]
