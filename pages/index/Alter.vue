@@ -51,6 +51,7 @@
 
 		<button id="save" @click="change">保存</button>
 	</view>
+	</view>
 </template>
 
 <script>

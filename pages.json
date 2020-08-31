@@ -50,6 +50,10 @@
             "path" : "pages/index/Address",
             "style" : {}
         }
+        ,{
+            "path" : "pages/index/doctorsIncome",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

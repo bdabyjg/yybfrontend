@@ -1,0 +1,3 @@
+<view><view class="title"><view>我的收益</view></view><view class="balance">可提现余额<view class="withdraw"><view class="num">￥ 0.00</view><button>提现</button></view></view><view class="nowandhistories"><view class="now">￥ 0.00
+			待生效收益</view><view class="historical">￥ 0.00
+			历史总收益</view></view><view><view class="incomeList">收益记录</view></view><view class="classification"><view class="comes">收益来源</view><view class="profit">收益金额</view><view class="status">收益状态</view></view><view class="details">暂无收益</view></view>
