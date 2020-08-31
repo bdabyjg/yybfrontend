@@ -180,6 +180,19 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
   components: { alert: alert },
   data: function data() {
@@ -187,8 +200,16 @@ __webpack_require__.r(__webpack_exports__);
       userid: null,
       area: '请点击选择的地址',
       name: null,
-      home: null,
-      tel: null,
+      gender: null, //性别
+      age: null,
+      ethnicity: null, //民族
+      origin: null, //籍贯
+      infectedDisease: null, //传染病史
+      Allergies: null, //过敏史
+      DoYouSmoke: null, //吸烟史
+      surgeryHistory: null, //手术史
+      injuryHistory: null, //受伤史
+      AlcoholConsumption: null, //是否饮酒
       relationshipct: 0,
       longitude: null,
       latitude: null,
@@ -228,8 +249,17 @@ __webpack_require__.r(__webpack_exports__);
       datas = [
       that.name,
       that.area,
-      that.home,
-      that.tel,
+      that.gender,
+      that.gender, //性别
+      that.age,
+      that.ethnicity, //民族
+      that.origin, //籍贯
+      that.infectedDisease, //传染病史
+      that.Allergies, //过敏史
+      that.DoYouSmoke, //吸烟史
+      that.surgeryHistory, //手术史
+      that.injuryHistory, //受伤史
+      that.AlcoholConsumption, //是否饮酒
       that.relationship];
 
       for (var i in datas) {
@@ -247,8 +277,18 @@ __webpack_require__.r(__webpack_exports__);
           u_id: that.userid,
           name: that.name,
           area: that.area,
-          home: that.home,
-          tel: that.tel,
+          age: that.age,
+          ethnicity: that.ethnicity, //民族
+          origin: that.origin, //籍贯
+          infectedDisease: that.infectedDisease, //传染病史
+          Allergies: that.Allergies, //过敏史
+          DoYouSmoke: that.DoYouSmoke, //吸烟史
+          surgeryHistory: that.surgeryHistory, //手术史
+          injuryHistory: that.injuryHistory, //受伤史
+          AlcoholConsumption: that.AlcoholConsumption, //是否饮酒
+
+
+
           longitude: that.longitude,
           latitude: that.latitude,
           relationship: that.relationship[that.relationshipct],

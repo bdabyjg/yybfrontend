@@ -14,15 +14,28 @@
 					<view>{{info.city}}</view>
 				</picker>
 			</view>
-			<view>
-				<view>选择地区</view><input type="text"  @click="selectadd" disabled v-model="info.area">
-			</view>
-			<view>
-				<view>详细地址</view><input type="text" placeholder="请输入详细地址" v-model="info.home">
-			</view>
-			<view>
-				<view>手机号</view><input type="number" placeholder="请输入手机号码" v-model="info.tel">
-			</view>
+      <view>
+        <view class="gender">性别</view>
+
+      </view>
+      <view>
+        <view class="age">年龄</view>
+      </view>
+
+      <view>
+        <view class="ethnicity">民族</view><input type="text" placeholder=" " v-model="home">
+      </view>
+      <view>
+        <view class="origin">籍贯</view><input type="number" placeholder=" " v-model="tel">
+      </view>
+      <view><view class="infectedDisease">有无既往传染病史?</view> </view>
+      <view><view class="Allergies">有无过敏史？</view> </view>
+      <view><view class="DoYouSmoke">是否吸烟？</view> </view>
+      <view><view class="surgeryHistory">是否有手术史？</view></view>
+      <view><view class="injuryHistory">是否有重大外伤史？</view> </view>
+      <view><view class="AlcoholConsumption">是否饮酒？</view> </view>
+
+      <view>
 			<view>
 				<view>成员关系</view><picker 
 				mode="selector" 
@@ -44,6 +57,21 @@
 	export default {
 		data() {
 			return {
+        userid:null,
+        area:'请点击选择的地址',
+        name:null,
+        gender:null,  //性别
+        age:null,
+        ethnicity:null,  //民族
+        origin:null,  //籍贯
+        infectedDisease:null, //传染病史
+        Allergies:null, //过敏史
+        DoYouSmoke:null, //吸烟史
+        surgeryHistory:null, //手术史
+        injuryHistory:null,  //受伤史
+        AlcoholConsumption:null, //是否饮酒
+        longitude:null,
+        latitude:null,
 				relationships:['本人','配偶','子女','孙子/孙女','父母','祖父母','朋友','亲戚','其他'],
 				relationshipct:null,
 				info:[],
@@ -85,7 +113,17 @@
 				field:'ua_id',
 				value:that.info.ua_id,
 				name:that.info.name,
-				area:that.info.area, 
+				area:that.info.area,
+        gender:that.info.gender,
+        age:that.info.age,
+        ethnicity:that.info.ethnicity,  //民族
+        origin:that.info.origin,  //籍贯
+        infectedDisease:that.info.infectedDisease, //传染病史
+        Allergies:that.info.Allergies, //过敏史
+        DoYouSmoke:that.info.DoYouSmoke, //吸烟史
+        surgeryHistory:that.info.surgeryHistory, //手术史
+        injuryHistory:that.info.injuryHistory,  //受伤史
+        AlcoholConsumption:that.info.AlcoholConsumption, //是否饮酒
 				latitude:that.info.latitude,
 				longitude:that.info.longitude,
 				home:that.info.home,
@@ -164,7 +202,7 @@ picker{
 #save{
     width: 90%;
 	margin: 80rpx auto;
-	background:linear-gradient(90deg,#ffdc4d,#ffc64e);
+	background:linear-gradient(90deg,#18b5fe,#0079FE);
 	color: #fff;
 }
 </style>

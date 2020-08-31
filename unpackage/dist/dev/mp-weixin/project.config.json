@@ -62,6 +62,27 @@
 			"list": [
 				{
 					"id": -1,
+					"name": "pages/index/Add",
+					"pathName": "pages/index/Add",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/Address",
+					"pathName": "pages/index/Address",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/Alter",
+					"pathName": "pages/index/Alter",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
 					"name": "pages/index/Address",
 					"pathName": "pages/index/Address",
 					"scene": null

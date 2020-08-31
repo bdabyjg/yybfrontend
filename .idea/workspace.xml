@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f89c8f06-a5f9-45ca-8ef3-9cb711db28f5" name="Default Changelist" comment="add CardList page">
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap50.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/Add.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/Add.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/Address.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/Address.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/Alter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/Alter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/common/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/common/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/About.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/About.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/AssociatedBankCard.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/AssociatedBankCard.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/CardList.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/CardList.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/Confirm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/Confirm.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/Refund.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/Refund.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/TransactionDetails.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/TransactionDetails.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/Withdraw.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/Withdraw.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/nowAndhistiory.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/nowAndhistiory.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/common/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/common/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Add.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Add.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Add.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Add.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Add.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Address.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Address.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Address.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Address.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Address.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Address.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Alter.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Alter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Alter.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Alter.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/project.config.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1gf8HWJ9zXyQ77gtfdkS6koYGsL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Funcnum_code\yybfrontend\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Funcnum_code\yybfrontend\static" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f89c8f06-a5f9-45ca-8ef3-9cb711db28f5" name="Default Changelist" comment="" />
+      <created>1598494203891</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598494203891</updated>
+      <workItem from="1598494208017" duration="2737000" />
+      <workItem from="1598497028709" duration="491000" />
+      <workItem from="1598497550528" duration="785000" />
+      <workItem from="1598498492071" duration="159000" />
+      <workItem from="1598498673908" duration="60000" />
+      <workItem from="1598498755779" duration="151000" />
+      <workItem from="1598498922751" duration="81000" />
+      <workItem from="1598499023913" duration="222000" />
+      <workItem from="1598499266080" duration="20000" />
+      <workItem from="1598500000686" duration="1372000" />
+      <workItem from="1598512279859" duration="10329000" />
+      <workItem from="1598523178258" duration="54000" />
+      <workItem from="1598841976758" duration="152000" />
+      <workItem from="1598842279942" duration="192000" />
+      <workItem from="1598842513402" duration="558000" />
+      <workItem from="1598843101334" duration="44000" />
+      <workItem from="1598843459072" duration="1572000" />
+      <workItem from="1598845621926" duration="82000" />
+      <workItem from="1598846808296" duration="120000" />
+      <workItem from="1598856380151" duration="6304000" />
+    </task>
+    <task id="LOCAL-00001" summary="git add .">
+      <created>1598501352960</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598501352960</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add some files">
+      <created>1598523213597</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598523213597</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add CardList page">
+      <created>1598845042215</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598845042215</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add 3 pages">
+      <created>1598846892763</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598846892763</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="git add ." />
+    <MESSAGE value="add some files" />
+    <MESSAGE value="add CardList page" />
+    <MESSAGE value="add 3 pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 3 pages" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="434" y="305" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1598499245550">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="434" y="305" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1368.872@0.0.1368.872" timestamp="1598499245550" />
+    <state x="588" y="219" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1598496219760">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="588" y="219" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1368.872@0.0.1368.872" timestamp="1598496219760" />
+    <state x="639" y="194" key="FileChooserDialogImpl" timestamp="1598843021226">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="639" y="194" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1598843021226" />
+    <state x="185" y="39" width="912" height="706" key="SettingsEditor" timestamp="1598513072572">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="185" y="39" width="912" height="706" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1598513072572" />
+    <state x="316" y="170" key="Vcs.Push.Dialog.v2" timestamp="1598846913055">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="316" y="170" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1598846913055" />
+    <state x="857" y="289" width="384" height="311" key="cloudConfig.SelfSettingsDialog" timestamp="1598499092942">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="857" y="289" width="384" height="311" key="cloudConfig.SelfSettingsDialog/0.0.1368.872@0.0.1368.872" timestamp="1598499092942" />
+    <state x="483" y="365" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598842003200">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="483" y="365" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1368.872@0.0.1368.872" timestamp="1598842003200" />
+    <state x="444" y="193" width="672" height="678" key="search.everywhere.popup" timestamp="1598859739276">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="444" y="193" width="672" height="678" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1598859739276" />
+  </component>
+</project>

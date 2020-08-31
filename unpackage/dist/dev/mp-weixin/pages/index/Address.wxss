@@ -15,7 +15,7 @@
 	border: 1rpx solid #fff;
 }
 .addressctn>view.active{
-	border-color: #ffaa00;
+	border-color: #0079FE;
 }
 .addressctn .username{
 	font-size: 36rpx;
@@ -81,8 +81,8 @@
 	right: 0;
 	font-size: 34rpx;
 	line-height: 100rpx;
-	background: -webkit-linear-gradient(left,#ffdc4d,#ffc64e);
-	background: linear-gradient(90deg,#ffdc4d,#ffc64e);
+	background: -webkit-linear-gradient(left,#18b5fe,#0079FE);
+	background: linear-gradient(90deg,#18b5fe,#0079FE);
 	color: #fff;
 	text-align: center;
 	border-radius: 40rpx;

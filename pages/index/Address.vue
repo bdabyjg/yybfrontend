@@ -10,7 +10,11 @@
 				{{item.name}}<view>{{item.relationship}}</view>
 			</view>
 			<view class="info">
-				
+        <view class="gender">性别：{{item.gender}}</view>
+        <view class="age">年龄</view>
+        <view class="ethnicity">民族</view>
+        <view class="origin">籍贯</view>
+
 				<view>电话：{{item.tel}}</view>
 				<view class="address">详细地址：{{item.area}}{{item.home}}</view>
 			</view>
@@ -32,7 +36,7 @@
 				</view>
 			</view>
 		</view>
-			 <view @click="jumpto" id="addbtn">添加服务对象</view>
+			 <view @click="to" id="addbtn">添加服务对象</view>
 	</view>
 </template>
 
@@ -45,18 +49,20 @@
 				ct:' ',
 				info:[
 									{
-										name:'郭千千',
+										name:'于谦',
 										relationship:'本人',
-										tel:'17608910002',
+										tel:'1234567886',
 										area:'海口市',
-										home:'海甸岛'
+										home:'皮条胡同',
+                    gender:"男"
 									},
 									{
-										name:'郭千千',
-										relationship:'本人',
-										tel:'17608910002',
+										name:'郭德纲',
+										relationship:'父子',
+										tel:'1234546403',
 										area:'海口市',
-										home:'海甸岛'
+										home:'德云社',
+                    gender:"男"
 									}
 								],
 				userInfo:''
@@ -145,7 +151,7 @@
 					url:'Alter'
 				})
 			},
-			jumpto(){
+			goto(){
 				uni.navigateTo({
 					url:"Add"
 				})
@@ -171,7 +177,7 @@
 	border: 1rpx solid #fff;
 }
 .addressctn>view.active{
-	border-color: #ffaa00;
+	border-color: #0079FE;
 }
 .addressctn .username{
 	font-size: 36rpx;
@@ -232,7 +238,7 @@
 	right: 0;
 	font-size: 34rpx;
 	line-height: 100rpx;
-	background: linear-gradient(90deg,#ffdc4d,#ffc64e);
+	background: linear-gradient(90deg,#18b5fe,#0079FE);
 	color: #fff;
 	text-align: center;
 	border-radius: 40rpx;

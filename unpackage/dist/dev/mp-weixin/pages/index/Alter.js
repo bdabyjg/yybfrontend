@@ -92,15 +92,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "recyclableRender", function() { return recyclableRender; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
-var components
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-}
-var recyclableRender = false
+var render = function () {}
 var staticRenderFns = []
-render._withStripped = true
+var recyclableRender
+var components
 
 
 
@@ -172,10 +167,38 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default =
 {
   data: function data() {
     return {
+      userid: null,
+      area: '请点击选择的地址',
+      name: null,
+      gender: null, //性别
+      age: null,
+      ethnicity: null, //民族
+      origin: null, //籍贯
+      infectedDisease: null, //传染病史
+      Allergies: null, //过敏史
+      DoYouSmoke: null, //吸烟史
+      surgeryHistory: null, //手术史
+      injuryHistory: null, //受伤史
+      AlcoholConsumption: null, //是否饮酒
+      longitude: null,
+      latitude: null,
       relationships: ['本人', '配偶', '子女', '孙子/孙女', '父母', '祖父母', '朋友', '亲戚', '其他'],
       relationshipct: null,
       info: [],
@@ -218,6 +241,16 @@ var _default =
         value: that.info.ua_id,
         name: that.info.name,
         area: that.info.area,
+        gender: that.info.gender,
+        age: that.info.age,
+        ethnicity: that.info.ethnicity, //民族
+        origin: that.info.origin, //籍贯
+        infectedDisease: that.info.infectedDisease, //传染病史
+        Allergies: that.info.Allergies, //过敏史
+        DoYouSmoke: that.info.DoYouSmoke, //吸烟史
+        surgeryHistory: that.info.surgeryHistory, //手术史
+        injuryHistory: that.info.injuryHistory, //受伤史
+        AlcoholConsumption: that.info.AlcoholConsumption, //是否饮酒
         latitude: that.info.latitude,
         longitude: that.info.longitude,
         home: that.info.home,

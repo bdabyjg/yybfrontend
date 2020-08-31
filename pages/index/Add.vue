@@ -15,14 +15,27 @@
 				</picker>
 			</view>
 			<view>
-				<view>选择地区</view><input type="text"  @click="selectadd" disabled :value="area">
+<!--				<view>选择地区</view><input type="text"  @click="selectadd" disabled :value="area">-->
+        <view class="gender">性别</view>
+
+			</view>
+      <view>
+        <view class="age">年龄</view>
+      </view>
+
+			<view>
+				<view class="ethnicity">民族</view><input type="text" placeholder=" " v-model="home">
 			</view>
 			<view>
-				<view>详细地址</view><input type="text" placeholder="请输入详细地址" v-model="home">
+				<view class="origin">籍贯</view><input type="number" placeholder=" " v-model="tel">
 			</view>
-			<view>
-				<view>手机号</view><input type="number" placeholder="请输入手机号码" v-model="tel">
-			</view>
+      <view><view class="infectedDisease">有无既往传染病史?</view> </view>
+      <view><view class="Allergies">有无过敏史？</view> </view>
+      <view><view class="DoYouSmoke">是否吸烟？</view> </view>
+      <view><view class="surgeryHistory">是否有手术史？</view></view>
+      <view><view class="injuryHistory">是否有重大外伤史？</view> </view>
+      <view><view class="AlcoholConsumption">是否饮酒？</view> </view>
+
 			<view>
 				<view>成员关系</view>
 				<picker 
@@ -51,8 +64,16 @@
 				userid:null,
 				area:'请点击选择的地址',
 				name:null,
-				home:null,
-				tel:null,
+				gender:null,  //性别
+				age:null,
+        ethnicity:null,  //民族
+        origin:null,  //籍贯
+        infectedDisease:null, //传染病史
+        Allergies:null, //过敏史
+        DoYouSmoke:null, //吸烟史
+        surgeryHistory:null, //手术史
+        injuryHistory:null,  //受伤史
+        AlcoholConsumption:null, //是否饮酒
 				relationshipct:0,
 				longitude:null,
 				latitude:null,
@@ -92,8 +113,17 @@
 			datas = [
 				that.name,
 				that.area,
-				that.home,
-				that.tel,
+				that.gender,
+        that.gender,  //性别
+        that.age,
+        that.ethnicity,  //民族
+        that.origin,  //籍贯
+        that.infectedDisease, //传染病史
+        that.Allergies, //过敏史
+        that.DoYouSmoke, //吸烟史
+        that.surgeryHistory, //手术史
+        that.injuryHistory,  //受伤史
+        that.AlcoholConsumption, //是否饮酒
 				that.relationship
 				];
 			    for(var i in datas){
@@ -111,8 +141,18 @@
 						u_id:that.userid,
 						name:that.name,
 						area:that.area,
-						home:that.home,
-						tel:that.tel,
+            age:that.age,
+            ethnicity:that.ethnicity,  //民族
+            origin:that.origin,  //籍贯
+            infectedDisease:that.infectedDisease, //传染病史
+            Allergies:that.Allergies, //过敏史
+            DoYouSmoke:that.DoYouSmoke, //吸烟史
+            surgeryHistory:that.surgeryHistory, //手术史
+            injuryHistory:that.injuryHistory,  //受伤史
+            AlcoholConsumption:that.AlcoholConsumption, //是否饮酒
+
+
+
 						longitude:that.longitude,
 						latitude:that.latitude,
 						relationship:that.relationship[that.relationshipct],
@@ -137,6 +177,12 @@
 </script>
 
 <style>
+
+.infectedDisease, .Alergies,.DoYouSmoke,.surgeryHistory,.injuryHistory,.AlcoholConsumption{
+
+  flex-flow: column;
+}
+
 .addctn{
 	width: 100%;
 	background-color: #f8f8f8;
@@ -169,7 +215,7 @@ picker{
 #save{
     width: 90%;
 	margin: 80rpx auto;
-	background:linear-gradient(90deg,#ffdc4d,#ffc64e);
+	background:linear-gradient(90deg,#18b5fe,#0079FE);
 	color: #fff;
 }
 </style>
