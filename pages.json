@@ -38,6 +38,18 @@
             "path" : "pages/index/CardList",
             "style" : {}
         }
+        ,{
+            "path" : "pages/index/Add",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/Alter",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/Address",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
