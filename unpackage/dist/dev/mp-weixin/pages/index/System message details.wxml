@@ -1,1 +1,1 @@
-<view></view>
+<view><view class="title">系统通知</view><view class="messages"><block wx:for="{{list}}" wx:for-item="i" wx:for-index="id" wx:key="id"><view><view class="date"><view class="{{[id]}}">{{i.date}}</view></view><view class="passage"><view class="messagetitle"><view class="{{[id]}}">{{i.messagetitle}}</view></view><image src="/static/img1.png" alt class="_img"></image><view class="{{[id]}}">{{i.image}}</view></view><view class="click"><button><view class="{{[id]}}">{{i.click}}</view></button></view></view></block></view></view>

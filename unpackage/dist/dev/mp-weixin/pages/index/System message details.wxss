@@ -1,0 +1,23 @@
+
+.title{
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+  padding: 30rpx;
+}
+.date{
+  color: #DEDEDE;
+}
+.messagetitle{
+  font-weight: bold;
+  font-size: large;
+}
+.messages{
+  width: 80%;
+  height: 40%;
+}
+.passage{
+  border-bottom:solid #DEDEDE;
+  box-shadow:0rpx 2rpx 5rpx  #DEDEDE;
+}
+
