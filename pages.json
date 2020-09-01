@@ -62,6 +62,10 @@
             "path" : "pages/index/Server_list",
             "style" : {}
         }
+        ,{
+            "path" : "pages/index/System message details",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

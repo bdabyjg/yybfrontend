@@ -14,7 +14,8 @@
     "pages/index/Address",
     "pages/index/doctorsIncome",
     "pages/index/glycemicIndex",
-    "pages/index/Server_list"
+    "pages/index/Server_list",
+    "pages/index/System message details"
   ],
   "subPackages": [],
   "window": {
@@ -24,5 +25,5 @@
     "backgroundColor": "#F8F8F8"
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap32.json"
+  "sitemapLocation": "sitemap47.json"
 }

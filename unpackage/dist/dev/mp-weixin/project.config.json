@@ -62,8 +62,8 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "pages/index/Server_list",
-					"pathName": "pages/index/Server_list",
+					"name": "pages/index/System message details",
+					"pathName": "pages/index/System message details",
 					"scene": null
 				}
 			]
