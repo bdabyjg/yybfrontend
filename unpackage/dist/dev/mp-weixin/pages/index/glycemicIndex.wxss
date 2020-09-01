@@ -1,0 +1,28 @@
+
+.results{
+  height: 300rpx;
+  color: white;
+  background-color: #dd524d;
+}
+
+
+/* 圆圈部分的布局*/
+.text {
+
+  border-radius: 50%;
+  width: 200rpx;
+  height: 200rpx;
+  color: white;
+  border: solid white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+/*血糖列表不会排*/
+.historical{
+  color: #0079FE;
+  background-color: white;
+}
+
+
