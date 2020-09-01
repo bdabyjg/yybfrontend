@@ -12,7 +12,8 @@
     "pages/index/Add",
     "pages/index/Alter",
     "pages/index/Address",
-    "pages/index/doctorsIncome"
+    "pages/index/doctorsIncome",
+    "pages/index/glycemicIndex"
   ],
   "subPackages": [],
   "window": {
@@ -22,5 +23,5 @@
     "backgroundColor": "#F8F8F8"
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap52.json"
+  "sitemapLocation": "sitemap68.json"
 }

@@ -54,6 +54,10 @@
             "path" : "pages/index/doctorsIncome",
             "style" : {}
         }
+        ,{
+            "path" : "pages/index/glycemicIndex",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

@@ -62,8 +62,8 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "pages/index/doctorsIncome",
-					"pathName": "pages/index/doctorsIncome",
+					"name": "pages/index/glycemicIndex",
+					"pathName": "pages/index/glycemicIndex",
 					"scene": null
 				}
 			]
