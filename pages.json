@@ -58,6 +58,10 @@
             "path" : "pages/index/glycemicIndex",
             "style" : {}
         }
+        ,{
+            "path" : "pages/index/Server_list",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
