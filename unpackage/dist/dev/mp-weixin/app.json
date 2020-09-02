@@ -17,7 +17,9 @@
     "pages/index/Server_list",
     "pages/index/System message details",
     "pages/index/About Us",
-    "pages/index/rateUs"
+    "pages/index/rateUs",
+    "pages/index/Appraise",
+    "pages/index/doctorAdvice"
   ],
   "subPackages": [],
   "window": {
@@ -27,5 +29,5 @@
     "backgroundColor": "#F8F8F8"
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap65.json"
+  "sitemapLocation": "sitemap90.json"
 }

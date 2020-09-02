@@ -1,0 +1,29 @@
+
+.title{
+  background-color: #0079FE;
+  font-size: large;
+  color: white;
+  padding: 30rpx;
+  text-align: center;
+}
+.text{
+  font-size: x-large;
+}
+.shadow{
+  margin:10rpx 14rpx 0rpx 14rpx;
+  padding: 40rpx;
+  border:1rpx solid #f0f0f0;
+  border-radius: 20rpx;
+}
+.addlogo{
+  float: right;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 200rpx;
+  right: 100rpx;
+  border: 0 solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 4rpx 1rpx 1rpx #cccccc;
+}
+
+

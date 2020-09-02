@@ -104,11 +104,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/alert/alert":1,"components/uni-icons/uni-icons":1};
+/******/ 		var cssChunks = {"components/alert/alert":1,"components/uni-icons/uni-icons":1,"components/helang-checkbox/helang-checkbox":1,"components/uni-rate/uni-rate":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/alert/alert":"components/alert/alert","components/uni-icons/uni-icons":"components/uni-icons/uni-icons"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/alert/alert":"components/alert/alert","components/uni-icons/uni-icons":"components/uni-icons/uni-icons","components/helang-checkbox/helang-checkbox":"components/helang-checkbox/helang-checkbox","components/uni-rate/uni-rate":"components/uni-rate/uni-rate"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

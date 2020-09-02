@@ -74,6 +74,14 @@
             "path" : "pages/index/rateUs",
             "style" : {}
         }
+        ,{
+            "path" : "pages/index/Appraise",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/doctorAdvice",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

@@ -1,0 +1,177 @@
+
+page,view{
+		display: block;
+}
+image{
+	width: 100%;
+	height: 100%;
+}
+.ctn{
+	background-color: #f5f5f5;
+	padding: 20rpx 0;
+	height: 100vh;
+	overflow: scroll;
+}
+.top {
+	width: 90%;
+	margin:auto;
+	padding: 20rpx;
+	background-color: #fff;
+	border-radius: 40rpx;
+}
+.info{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.info>view{
+	width: 40%;
+	height: 200rpx;
+	line-height: 70rpx;
+	margin: auto;
+}
+.btngrp{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.btngrp>view{
+	margin: auto;
+	width: 45%;
+	margin-top: 40rpx;
+	text-align: center;
+	border-radius: 20rpx;
+	background-color: #f5f5f6;
+	font-weight: bold;
+	line-height: 60rpx;
+	padding: 10rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.btngrp>view>view:nth-child(1){
+	width: 45%;
+}
+uni-icons{
+	vertical-align: middle;
+}
+.btngrp .yes.act{
+    background-color: #fff8e6;
+	color: #f1a724;
+}
+.btngrp .no.act{
+	background-color: #fd835d;
+	color: #ff3f04;
+}
+.pjctn{
+	width: 100%;
+	margin-top: 20rpx;
+}
+.pjctn helang-checkbox{
+	width: 90%;
+}
+.starctn{
+	width: 90%;
+	margin: auto;
+	border-radius: 40rpx;
+	background-color: #fff;
+	margin-top: 20rpx;
+	padding: 20rpx;
+}
+.starctn .top{
+    font-size: 36rpx;
+}
+.starctn .top>view{
+	display: inline-block;
+	line-height: 50rpx;
+}
+.starctn .top label{
+	float: right;
+	line-height: 50rpx;
+}
+.starctn .top label text{
+	margin-right: 20rpx;
+}
+.starctn .info{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin: 20rpx 0;
+	display: none;
+}
+.starctn .info .tt{
+	margin: auto;
+	margin-left: 0;
+	width: 50%;
+	font-size: 30rpx;
+}
+.starctn .info .imgbox{
+	width: 30%;
+	height: 170rpx;
+	margin: auto;
+}
+.starctn .stargrp{
+	width: 90%;
+	margin: 20rpx auto;
+	font-size: 34rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.starctn .stargrp>view{
+	margin: auto;
+	line-height: 80rpx;
+}
+uni-rate{
+display: -webkit-box;
+display: -webkit-flex;
+display: flex;
+width: 55%;
+}
+.uni-rate{
+	margin: auto;
+}
+.uni-rate>view{
+	margin: auto;
+}
+.down{
+	width: 90%;
+	margin: 20rpx auto;
+	background-color: #fff;
+	border-radius: 40rpx;
+	padding:20rpx
+}
+.down .area{
+	padding: 40rpx;
+	margin: auto;
+	font-size: 32rpx;
+}
+.down .area>textarea{
+	width: 100%;
+	height: 200rpx;
+	margin: auto;
+}
+.down .area .chenge{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.chenge view{
+	width: 32%;
+	height: 200rpx;
+	margin:.5%
+}
+.btn{
+	background: -webkit-linear-gradient(45deg,#2f9bfe,#0079FE);
+	background: linear-gradient(45deg,#2f9bfe,#0079FE);
+	width: 90%;
+	margin: auto;
+	line-height: 80rpx;
+	color: #fff;
+	text-align: center;
+	font-size: 34rpx;
+	border-radius: 20rpx;
+}
+

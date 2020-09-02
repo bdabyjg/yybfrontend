@@ -20,29 +20,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f89c8f06-a5f9-45ca-8ef3-9cb711db28f5" name="Default Changelist" comment="add CardList page">
-      <change afterPath="$PROJECT_DIR$/pages/index/About Us.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index/rateUs.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/complete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/About Us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/About Us.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/About Us.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/About Us.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/rateUs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/rateUs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/rateUs.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap65.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap77.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap84.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/complete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/city.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/h-form-alert/h-form-alert.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/h-form-alert/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/helang-checkbox/helang-checkbox.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/linzq-citySelect/linzq-citySelect.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/mpvue-citypicker/city-data/area.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/mpvue-citypicker/city-data/city.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/mpvue-citypicker/city-data/province.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/mpvue-citypicker/mpvueCityPicker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stan-ucharts/ArcbarChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stan-ucharts/HistogramChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stan-ucharts/LineChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stan-ucharts/PieChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stan-ucharts/RingChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/uni-indexed-list/uni-indexed-list.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/uni-load-more/uni-load-more.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/uni-rate/uni-rate.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/xiujun-time-selector/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/xiujun-time-selector/date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/xiujun-time-selector/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/xiujun-time-selector/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/xiujun-time-selector/index111.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index/Appraise.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index/doctorAdvice.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/helang-checkbox/helang-checkbox.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/uni-rate/uni-rate.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/Appraise.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/doctorAdvice.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/helang-checkbox/helang-checkbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/helang-checkbox/helang-checkbox.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/helang-checkbox/helang-checkbox.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/helang-checkbox/helang-checkbox.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/uni-rate/uni-rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/uni-rate/uni-rate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/uni-rate/uni-rate.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/uni-rate/uni-rate.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Appraise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Appraise.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Appraise.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Appraise.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/doctorAdvice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/doctorAdvice.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/doctorAdvice.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/doctorAdvice.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap30.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap90.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/common/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/common/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/common/runtime.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/common/runtime.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/alert/alert.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/alert/alert.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/uni-icons/uni-icons.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/uni-icons/uni-icons.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/About Us.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/About Us.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/About.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/About.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/Add.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/Add.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/Address.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/Address.js.map" afterDir="false" />
@@ -60,12 +92,12 @@
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/index.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/nowAndhistiory.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/index/nowAndhistiory.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/common/runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/common/runtime.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/common/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/common/vendor.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/alert/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/alert/alert.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/uni-icons/uni-icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/uni-icons/uni-icons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Add.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Add.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Server_list.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/Server_list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/System message details.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/System message details.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +189,7 @@
       <workItem from="1598949068625" duration="2786000" />
       <workItem from="1599014141833" duration="2646000" />
       <workItem from="1599017375376" duration="1891000" />
-      <workItem from="1599028790076" duration="1534000" />
+      <workItem from="1599028790076" duration="10729000" />
     </task>
     <task id="LOCAL-00001" summary="git add .">
       <created>1598501352960</created>
@@ -208,7 +240,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598953053359</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change about us">
+      <created>1599030403293</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599030403293</updated>
+    </task>
+    <task id="LOCAL-00009" summary="change about us">
+      <created>1599030418494</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599030418494</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +282,8 @@
     <MESSAGE value="add 3 pages" />
     <MESSAGE value="add glycemicIndex.vue" />
     <MESSAGE value="add system message page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add system message page" />
+    <MESSAGE value="change about us" />
+    <option name="LAST_COMMIT_MESSAGE" value="change about us" />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="305" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1598499245550">
@@ -255,10 +302,10 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="185" y="39" width="912" height="706" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1598513072572" />
-    <state x="316" y="170" key="Vcs.Push.Dialog.v2" timestamp="1598953061388">
+    <state x="316" y="170" key="Vcs.Push.Dialog.v2" timestamp="1599030445566">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="316" y="170" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1598953061388" />
+    <state x="316" y="170" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1599030445566" />
     <state x="857" y="289" width="384" height="311" key="cloudConfig.SelfSettingsDialog" timestamp="1598499092942">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
