@@ -1,0 +1,58 @@
+
+.ctn{
+	height: 100vh;
+	overflow: scroll;
+  text-align: center;
+	background-color: #f5f5f5;
+}
+.line1{
+  font-weight: bold;
+  font-size: larger;
+}
+image{
+	width: 100%;
+	height: 100%;
+}
+.logo{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  height: 400rpx;
+  background-color: #fff;
+}
+.imgbox{
+	width: 150rpx;
+	height: 150rpx;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+	margin-bottom: 20rpx;
+}
+.pic{
+  width: 100rpx;
+  height: 100rpx;
+}
+.tr{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding: 30rpx;
+	border-top: 1rpx solid #dedede;
+  	background-color: #fff;
+}
+
