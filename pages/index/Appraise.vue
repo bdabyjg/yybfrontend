@@ -29,7 +29,7 @@
 
         <view class="starctn"> 
 				 <checkbox-group class="top">
-					 <view>您对本次服务满意吗</view> 
+					 <view>请您对本次服务进行评价</view>
 					 <label>
 						<text>匿名提交</text> <checkbox value='匿名提交' />
 					 </label>
@@ -273,12 +273,12 @@ uni-icons{
 	vertical-align: middle;
 }
 .btngrp .yes.act{
-    background-color: #fff8e6;
-	color: #f1a724;
+    background-color: #0079FE;
+	color: #ffffff;
 }
 .btngrp .no.act{
-	background-color: #fd835d;
-	color: #ff3f04;
+	background-color:#ff3f04 ;
+	color: white;
 }
 .pjctn{
 	width: 100%;
