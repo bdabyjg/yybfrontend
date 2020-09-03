@@ -62,8 +62,8 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "pages/index/Appraise",
-					"pathName": "pages/index/Appraise",
+					"name": "pages/index/About Us",
+					"pathName": "pages/index/About Us",
 					"scene": null
 				}
 			]

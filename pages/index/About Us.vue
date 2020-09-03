@@ -7,59 +7,105 @@
 	<view class="ctn">
     <view class="logo">
 		<view class="imgbox">
-      <img src="/static/favicon.ico" alt="">
+      <img src="/static/logo1.svg" alt="">
 		</view>
 		<view>
 
-      <view class="line1">方克鑫科技</view>
-      <view class="line2">海南方克鑫网络科技有限公司</view>
+      <view class="line1">医约宝</view>
+      <view class="line2">版本</view>
 		</view>
     </view>
 
 <!--    文字部分-->
     <view class="details">
-		<view class="tr">
-			<view>平台Logo</view>
-			<view class="pic"><img src="/static/img2.png"></view>
-		</view>
+<!--		<view class="tr">-->
+<!--			<view>平台Logo</view>-->
+<!--			<view class="pic"><img src="/static/logo1.svg"></view>-->
+<!--		</view>-->
 		<view class="tr">
 			<view>平台名称</view>
-      <view>医约宝</view>
+      <view class="grey">
+        <view>医约宝</view>
+      </view>
+
 		</view>
+      <view class="tr">
+        <view>检测更新</view>
+        <view class="grey">
+          <view>已是最新版</view>
+        </view>
+
+      </view>
+      <view class="tr" @click="appraise">
+        <view>去评分</view>
+        <view> <uni-icons type="arrowright" size="20"></uni-icons></view>
+      </view>
+      <view class="tr">
+        <view>自动下载医约宝安装包</view>
+         <view class="grey">
+           <view>仅限WiFi网络</view>
+      </view>
+      </view>
+      <view class="tr">
+        <view>版权信息</view>
+        <view> <uni-icons type="arrowright" size="20"></uni-icons></view>
+      </view>
+      <view class="tr">
+        <view>服务协议</view>
+        <view> <uni-icons type="arrowright" size="20"></uni-icons></view>
+      </view>
 
         <view class="tr">
 			<view>版权所属</view>
-          <view>海南方克鑫网络科技有限公司</view>
+          <view class="grey">
+            <view>海南方克鑫网络科技有限公司</view>
+          </view>
+
 		</view>
-        <view class="tr">
+        <view class="tr" @click="webadr">
         	<view>公司网址</view>
-          <view>www.funcnum.com</view>
+          <view><uni-icons type="arrowright" size="20"></uni-icons></view>
         </view>
 		<view class="tr">
 			<view>联系方式</view>
-      <view>13198910081</view>
+      <view class="grey">
+        <view>13198910081</view>
+      </view>
+
 		</view>
       <view class="tr">
         <view>地址</view>
-        <view>海南省海口市海南医学院</view>
+        <view class="grey">
+          <view>海南省海口市海南医学院</view>
+        </view>
+
       </view>
-      <view class="tr">
-        <view>反馈问题</view>
-        <view> <button bindtap="goToReport"> 去反馈</button></view>
-      </view>
+
     </view>
 
 	</view>
 </template>
 
 <script>
+import uniIcons from "@/components/uni-icons/uni-icons.vue"
 	export default {
+    components: {uniIcons},
 		data() {
 			return {
 				
 			}
 		},
 		methods: {
+      appraise(){
+        uni.navigateTo({
+        	url:"Appraise"
+        })
+      },
+      webadr(){
+        uni.navigateTo({
+          url:"webadr"
+        })
+      }
 			
 		}
 	}
@@ -80,6 +126,9 @@ image{
 	width: 100%;
 	height: 100%;
 }
+.grey{
+  color: grey;
+}
 .logo{
   display: flex;
   flex-flow: column;
@@ -89,8 +138,8 @@ image{
   background-color: #fff;
 }
 .imgbox{
-	width: 150rpx;
-	height: 150rpx;
+	width: 200rpx;
+	height: 200rpx;
 	flex-shrink: 0;
 	margin-bottom: 20rpx;
 }

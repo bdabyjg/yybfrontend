@@ -82,6 +82,10 @@
             "path" : "pages/index/doctorAdvice",
             "style" : {}
         }
+        ,{
+            "path" : "pages/index/webadr",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
